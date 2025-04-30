@@ -34,9 +34,11 @@
 - [.NET 7 + C#](https://dotnet.microsoft.com/)
 - [Telegram.Bot SDK](https://github.com/TelegramBots/Telegram.Bot)
 - [ImageSharp](https://github.com/SixLabors/ImageSharp)
-- [SQLite](https://www.sqlite.org/)
 - [PandaScore API](https://developers.pandascore.co/)
-- [OpenRouter / Maritaca](https://openrouter.ai/) (para IA)
+- [Maritaca](https://www.maritaca.ai) (para IA)
+- [Somme](https://somee.com) (Banco em Nuvem)
+
+---
 
 ## 💬 Comandos Disponíveis
 
@@ -47,6 +49,8 @@
 /treinar → Escolhe um jogador para treinar com você via IA
 
 /jogos → Mostra os próximos jogos da FURIA em 2025
+
+---
 
 ## 👨‍💻 Como Rodar Localmente
 
