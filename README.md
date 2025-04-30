@@ -55,8 +55,11 @@
 ## 👨‍💻 Como Rodar Localmente
 
 git clone https://github.com/seu-usuario/FuriaTec_TelegramBot.git
+
 cd FuriaTec_TelegramBot
+
 dotnet build
+
 dotnet run
 
 
