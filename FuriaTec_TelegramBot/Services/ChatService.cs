@@ -13,7 +13,7 @@ namespace FuriaTec_TelegramBot.Services
     {
         public async Task<string> PergunteAoTreinador(string treinador, string pergunta)
         {
-            string key = "100588850867037024860_1035c8b13f285ed0";
+            string key = "";
             string model = "sabiazinho-3";
             string url = "https://chat.maritaca.ai/api";
             string nameProject = "ExemploUsandoMaritaca";
@@ -36,7 +36,7 @@ namespace FuriaTec_TelegramBot.Services
 
             List<ChatMessage> chatMessages = new List<ChatMessage>();
 
-            UserChatMessage userChat = ChatMessage.CreateUserMessage($"Você é o treinador: {treinador}, responda como se fosse ele, jogador profissional da FURIA, falando com um fã de forma motivacional e técnica sobre CS:GO, RESPONDA A PERGUNTA DE MANEIRA CLARA: {pergunta}");
+            UserChatMessage userChat = ChatMessage.CreateUserMessage($"Você é o treinador: {treinador}, responda como se fosse ele, jogador profissional da FURIA, falando com um fã de forma motivacional e técnica sobre CS-2, RESPONDA A PERGUNTA DE MANEIRA CLARA e não muita prolongada: {pergunta}");
             chatMessages.Add(userChat);
 
             ChatCompletion chatCompletion = await chatClient.CompleteChatAsync(chatMessages, chatOptions);

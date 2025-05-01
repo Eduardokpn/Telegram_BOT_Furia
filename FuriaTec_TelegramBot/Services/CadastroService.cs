@@ -18,6 +18,8 @@ namespace FuriaTec_TelegramBot.Services
 
         public void RemoverAguardando(long telegramId)
             => aguardandoEmail.Remove(telegramId);
+
+
     }
 
 }
