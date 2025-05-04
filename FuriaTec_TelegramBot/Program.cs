@@ -13,6 +13,7 @@ using System.Text.RegularExpressions;
 using EsportsModels;
 using LibreOpenAI.OpenAi.ChatAi;
 using System.Reflection;
+using Match = EsportsModels.Match;
 
 var treinadorEscolhido = "";
 var serviceProvider = new ServiceCollection()
@@ -29,7 +30,7 @@ var cadastroService = serviceProvider.GetService<CadastroService>();
 
 
 using var cts = new CancellationTokenSource();
-var bot = new TelegramBotClient("", cancellationToken: cts.Token);
+var bot = new TelegramBotClient("7493984353:AAHDqTlwCWIsBTnQLgGaY3tf0pxPCoU9geA", cancellationToken: cts.Token);
 var me = await bot.GetMe();
 
 
@@ -121,16 +122,21 @@ async Task OnMessage(Message msg, UpdateType type)
                     var chatId = update.CallbackQuery.Message.Chat.Id;
                     
                     treinadorEscolhido = update.CallbackQuery.Data;
-                    await bot.SendMessage(chatId, $"Agora que você escolheu o {update.CallbackQuery.Data}, vamos juntos rumo à evolução no CS2!\n🚀 Com a experiência de um dos maiores nomes do cenário, você está mais perto de alcançar o topo!\nO que você quer aprimorar? 💥.");
+                    await bot.SendMessage(chatId, $"Agora que você escolheu o {update.CallbackQuery.Data}, vamos juntos rumo à evolução no CS2!\n🚀 Com a experiência de um dos maiores nomes do cenário, você está mais perto de alcançar o topo!\nO que você quer aprimorar? Pergunte assim: 'treinador como posso ....' 💥.");
                 }
             };
 
             bot.OnMessage += async (message, type) =>
             {
                 var msg = message.Text;
-
+                if (msg.Contains("treinador"))
+                { 
+                
                 var resposta = await chatService.PergunteAoTreinador(treinadorEscolhido, message.Text);
                 await bot.SendMessage(message.From.Id, resposta);
+
+                }
+
             };
 
             break;
@@ -138,7 +144,7 @@ async Task OnMessage(Message msg, UpdateType type)
 
         case "/jogos":
 
-            await  bot.SendMessage(msg.Chat, "🎮 Ultimos Jogos e Futuros:");
+            await bot.SendMessage(msg.Chat, "🎮 Ultimos Jogos e Futuros:");
 
             var options = new RestClientOptions("https://api.pandascore.co/teams/124530/matches?range[begin_at]=2025-01-01T00:00:00Z,2025-12-31T23:59:59Z&token=9zt1QfOPrI_wT-JBR6rinvQjmnwMBFXhUtzWUNGRRKqpV9c_l94");
             var client = new RestClient(options);
@@ -147,23 +153,30 @@ async Task OnMessage(Message msg, UpdateType type)
             request.AddHeader("authorization", "Bearer 9zt1QfOPrI_wT-JBR6rinvQjmnwMBFXhUtzWUNGRRKqpV9c_l94");
             var response = await client.GetAsync(request);
 
-            dynamic matches = JsonConvert.DeserializeObject(response.Content);
+            var matches = JsonConvert.DeserializeObject<List<Match>>(response.Content);
             int cont = 0;
             int limite = 5;
 
-            
-            
             foreach (var match in matches)
             {
-              if (cont == limite)
-              break;
+                if (cont == limite)
+                    break;
 
-              bot.SendMessage(msg.Chat, $"🆚 Partida: { match.name}\n📅 Data e Hora: {match.begin_at}\n🏆 Vencedor: {match.winner?.name}" );
+                // Coleta os nomes dos dois times (caso existam)
+                var teamNames = match.Opponents != null && match.Opponents.Count == 2
+                    ? $"{match.Opponents[0].OpponentTeam?.Name ?? "Time 1"} vs {match.Opponents[1].OpponentTeam?.Name ?? "Time 2"}"
+                    : match.Name;
 
-              cont ++;
+                var data = match.BeginAt?.ToString("dd/MM/yyyy HH:mm") ?? "Data não disponível";
+                var vencedor = match.Winner?.Name ?? "Partida ainda não concluída";
+
+                bot.SendMessage(msg.Chat,
+                    $"🆚 {teamNames}\n📅 Data e Hora: {data}\n🏆 Vencedor: {vencedor}");
+
+                cont++;
             }
 
-        break;
+            break;
 
         case "/menu":
         {

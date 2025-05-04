@@ -7,7 +7,7 @@ namespace EsportsModels
     public class Match
     {
         [JsonProperty("id")]
-        public int Id { get; set; }
+        public int? Id { get; set; }
 
         [JsonProperty("name")]
         public string Name { get; set; }
@@ -31,22 +31,22 @@ namespace EsportsModels
         public string Status { get; set; }
 
         [JsonProperty("draw")]
-        public bool Draw { get; set; }
+        public bool? Draw { get; set; }
 
         [JsonProperty("forfeit")]
-        public bool Forfeit { get; set; }
+        public bool? Forfeit { get; set; }
 
         [JsonProperty("rescheduled")]
-        public bool Rescheduled { get; set; }
+        public bool? Rescheduled { get; set; }
 
         [JsonProperty("detailed_stats")]
-        public bool DetailedStats { get; set; }
+        public bool? DetailedStats { get; set; }
 
         [JsonProperty("match_type")]
         public string MatchType { get; set; }
 
         [JsonProperty("number_of_games")]
-        public int NumberOfGames { get; set; }
+        public int? NumberOfGames { get; set; }
 
         [JsonProperty("game_advantage")]
         public object GameAdvantage { get; set; }
@@ -58,7 +58,7 @@ namespace EsportsModels
         public int? WinnerId { get; set; }
 
         [JsonProperty("modified_at")]
-        public DateTime ModifiedAt { get; set; }
+        public DateTime? ModifiedAt { get; set; }
 
         // Relacionamentos
         [JsonProperty("videogame")]
@@ -74,19 +74,19 @@ namespace EsportsModels
         public Serie Serie { get; set; }
 
         [JsonProperty("serie_id")]
-        public int SerieId { get; set; }
+        public int? SerieId { get; set; }
 
         [JsonProperty("league")]
         public League League { get; set; }
 
         [JsonProperty("league_id")]
-        public int LeagueId { get; set; }
+        public int? LeagueId { get; set; }
 
         [JsonProperty("tournament")]
         public Tournament Tournament { get; set; }
 
         [JsonProperty("tournament_id")]
-        public int TournamentId { get; set; }
+        public int? TournamentId { get; set; }
 
         // Objetos aninhados
         [JsonProperty("live")]
@@ -111,7 +111,7 @@ namespace EsportsModels
     public class Videogame
     {
         [JsonProperty("id")]
-        public int Id { get; set; }
+        public int? Id { get; set; }
 
         [JsonProperty("name")]
         public string Name { get; set; }
@@ -123,7 +123,7 @@ namespace EsportsModels
     public class VideogameTitle
     {
         [JsonProperty("id")]
-        public int Id { get; set; }
+        public int? Id { get; set; }
 
         [JsonProperty("name")]
         public string Name { get; set; }
@@ -132,13 +132,13 @@ namespace EsportsModels
         public string Slug { get; set; }
 
         [JsonProperty("videogame_id")]
-        public int VideogameId { get; set; }
+        public int? VideogameId { get; set; }
     }
 
     public class Serie
     {
         [JsonProperty("id")]
-        public int Id { get; set; }
+        public int? Id { get; set; }
 
         [JsonProperty("name")]
         public string Name { get; set; }
@@ -150,7 +150,7 @@ namespace EsportsModels
         public int? Year { get; set; }
 
         [JsonProperty("begin_at")]
-        public DateTime BeginAt { get; set; }
+        public DateTime? BeginAt { get; set; }
 
         [JsonProperty("end_at")]
         public DateTime? EndAt { get; set; }
@@ -165,10 +165,10 @@ namespace EsportsModels
         public string Slug { get; set; }
 
         [JsonProperty("modified_at")]
-        public DateTime ModifiedAt { get; set; }
+        public DateTime? ModifiedAt { get; set; }
 
         [JsonProperty("league_id")]
-        public int LeagueId { get; set; }
+        public int? LeagueId { get; set; }
 
         [JsonProperty("season")]
         public string Season { get; set; }
@@ -177,7 +177,7 @@ namespace EsportsModels
     public class League
     {
         [JsonProperty("id")]
-        public int Id { get; set; }
+        public int? Id { get; set; }
 
         [JsonProperty("name")]
         public string Name { get; set; }
@@ -192,13 +192,13 @@ namespace EsportsModels
         public string ImageUrl { get; set; }
 
         [JsonProperty("modified_at")]
-        public DateTime ModifiedAt { get; set; }
+        public DateTime? ModifiedAt { get; set; }
     }
 
     public class Tournament
     {
         [JsonProperty("id")]
-        public int Id { get; set; }
+        public int? Id { get; set; }
 
         [JsonProperty("name")]
         public string Name { get; set; }
@@ -213,7 +213,7 @@ namespace EsportsModels
         public string Country { get; set; }
 
         [JsonProperty("begin_at")]
-        public DateTime BeginAt { get; set; }
+        public DateTime? BeginAt { get; set; }
 
         [JsonProperty("end_at")]
         public DateTime? EndAt { get; set; }
@@ -225,13 +225,13 @@ namespace EsportsModels
         public string WinnerType { get; set; }
 
         [JsonProperty("serie_id")]
-        public int SerieId { get; set; }
+        public int? SerieId { get; set; }
 
         [JsonProperty("modified_at")]
-        public DateTime ModifiedAt { get; set; }
+        public DateTime? ModifiedAt { get; set; }
 
         [JsonProperty("league_id")]
-        public int LeagueId { get; set; }
+        public int? LeagueId { get; set; }
 
         [JsonProperty("prizepool")]
         public object Prizepool { get; set; }
@@ -240,22 +240,22 @@ namespace EsportsModels
         public string Tier { get; set; }
 
         [JsonProperty("has_bracket")]
-        public bool HasBracket { get; set; }
+        public bool? HasBracket { get; set; }
 
         [JsonProperty("region")]
         public string Region { get; set; }
 
         [JsonProperty("live_supported")]
-        public bool LiveSupported { get; set; }
+        public bool? LiveSupported { get; set; }
 
         [JsonProperty("detailed_stats")]
-        public bool DetailedStats { get; set; }
+        public bool? DetailedStats { get; set; }
     }
 
     public class Live
     {
         [JsonProperty("supported")]
-        public bool Supported { get; set; }
+        public bool? Supported { get; set; }
 
         [JsonProperty("url")]
         public string Url { get; set; }
@@ -267,7 +267,7 @@ namespace EsportsModels
     public class Team
     {
         [JsonProperty("id")]
-        public int Id { get; set; }
+        public int? Id { get; set; }
 
         [JsonProperty("name")]
         public string Name { get; set; }
@@ -285,16 +285,16 @@ namespace EsportsModels
         public string ImageUrl { get; set; }
 
         [JsonProperty("modified_at")]
-        public DateTime ModifiedAt { get; set; }
+        public DateTime? ModifiedAt { get; set; }
     }
 
     public class Stream
     {
         [JsonProperty("main")]
-        public bool Main { get; set; }
+        public bool? Main { get; set; }
 
         [JsonProperty("official")]
-        public bool Official { get; set; }
+        public bool? Official { get; set; }
 
         [JsonProperty("language")]
         public string Language { get; set; }
@@ -309,28 +309,28 @@ namespace EsportsModels
     public class Game
     {
         [JsonProperty("id")]
-        public int Id { get; set; }
+        public int? Id { get; set; }
 
         [JsonProperty("position")]
-        public int Position { get; set; }
+        public int? Position { get; set; }
 
         [JsonProperty("status")]
         public string Status { get; set; }
 
         [JsonProperty("complete")]
-        public bool Complete { get; set; }
+        public bool? Complete { get; set; }
 
         [JsonProperty("finished")]
-        public bool Finished { get; set; }
+        public bool? Finished { get; set; }
 
         [JsonProperty("forfeit")]
-        public bool Forfeit { get; set; }
+        public bool? Forfeit { get; set; }
 
         [JsonProperty("length")]
-        public int Length { get; set; } // em segundos
+        public int? Length { get; set; } // em segundos
 
         [JsonProperty("match_id")]
-        public int MatchId { get; set; }
+        public int? MatchId { get; set; }
 
         [JsonProperty("begin_at")]
         public DateTime? BeginAt { get; set; }
@@ -351,7 +351,7 @@ namespace EsportsModels
     public class TeamWinner
     {
         [JsonProperty("id")]
-        public int Id { get; set; }
+        public int? Id { get; set; }
 
         [JsonProperty("type")]
         public string Type { get; set; }
@@ -369,9 +369,9 @@ namespace EsportsModels
     public class Result
     {
         [JsonProperty("team_id")]
-        public int TeamId { get; set; }
+        public int? TeamId { get; set; }
 
         [JsonProperty("score")]
-        public int Score { get; set; }
+        public int? Score { get; set; }
     }
 }

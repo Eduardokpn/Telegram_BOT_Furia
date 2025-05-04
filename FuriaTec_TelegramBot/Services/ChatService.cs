@@ -13,7 +13,7 @@ namespace FuriaTec_TelegramBot.Services
     {
         public async Task<string> PergunteAoTreinador(string treinador, string pergunta)
         {
-            string key = "";
+            string key = "100588850867037024860_2d5911a57e9c97a7";
             string model = "sabiazinho-3";
             string url = "https://chat.maritaca.ai/api";
             string nameProject = "ExemploUsandoMaritaca";

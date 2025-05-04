@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FuriaTec_TelegramBot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+084e2ce5ba97343235fcf7caa3a103dfd965391b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6160de6c2ee0186c88a5459b5f40c9a45e01a1cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("FuriaTec_TelegramBot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FuriaTec_TelegramBot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

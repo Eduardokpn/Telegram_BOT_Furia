@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\eduar\\OneDrive\\Documentos\\Projetos\\FuriaTec_TelegramBot\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4F626B67-F2F1-42FA-B212-F00EF0ABE173}|FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj|c:\\users\\eduar\\onedrive\\documentos\\projetos\\furiatec_telegrambot\\furiatec_telegrambot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F626B67-F2F1-42FA-B212-F00EF0ABE173}|FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj|solutionrelative:furiatec_telegrambot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F626B67-F2F1-42FA-B212-F00EF0ABE173}|FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj|c:\\users\\eduar\\onedrive\\documentos\\projetos\\furiatec_telegrambot\\furiatec_telegrambot\\models\\esportsmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F626B67-F2F1-42FA-B212-F00EF0ABE173}|FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj|solutionrelative:furiatec_telegrambot\\models\\esportsmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F626B67-F2F1-42FA-B212-F00EF0ABE173}|FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj|c:\\users\\eduar\\onedrive\\documentos\\projetos\\furiatec_telegrambot\\furiatec_telegrambot\\services\\cadastroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F626B67-F2F1-42FA-B212-F00EF0ABE173}|FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj|solutionrelative:furiatec_telegrambot\\services\\cadastroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F626B67-F2F1-42FA-B212-F00EF0ABE173}|FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj|c:\\users\\eduar\\onedrive\\documentos\\projetos\\furiatec_telegrambot\\furiatec_telegrambot\\data\\usuariosdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F626B67-F2F1-42FA-B212-F00EF0ABE173}|FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj|solutionrelative:furiatec_telegrambot\\data\\usuariosdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4F626B67-F2F1-42FA-B212-F00EF0ABE173}|FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj|c:\\users\\eduar\\onedrive\\documentos\\projetos\\furiatec_telegrambot\\furiatec_telegrambot\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F626B67-F2F1-42FA-B212-F00EF0ABE173}|FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj|solutionrelative:furiatec_telegrambot\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +27,8 @@
       "RelativeMoniker": "D:0:0:{4F626B67-F2F1-42FA-B212-F00EF0ABE173}|FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj|solutionrelative:furiatec_telegrambot\\services\\imagemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F626B67-F2F1-42FA-B212-F00EF0ABE173}|FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj|c:\\users\\eduar\\onedrive\\documentos\\projetos\\furiatec_telegrambot\\furiatec_telegrambot\\services\\cadastroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F626B67-F2F1-42FA-B212-F00EF0ABE173}|FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj|solutionrelative:furiatec_telegrambot\\services\\cadastroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F626B67-F2F1-42FA-B212-F00EF0ABE173}|FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj|c:\\users\\eduar\\onedrive\\documentos\\projetos\\furiatec_telegrambot\\furiatec_telegrambot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F626B67-F2F1-42FA-B212-F00EF0ABE173}|FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj|solutionrelative:furiatec_telegrambot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F626B67-F2F1-42FA-B212-F00EF0ABE173}|FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj|c:\\users\\eduar\\onedrive\\documentos\\projetos\\furiatec_telegrambot\\furiatec_telegrambot\\data\\usuariosdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F626B67-F2F1-42FA-B212-F00EF0ABE173}|FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj|solutionrelative:furiatec_telegrambot\\data\\usuariosdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4F626B67-F2F1-42FA-B212-F00EF0ABE173}|FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj|c:\\users\\eduar\\onedrive\\documentos\\projetos\\furiatec_telegrambot\\furiatec_telegrambot\\furiatec_telegrambot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{4F626B67-F2F1-42FA-B212-F00EF0ABE173}|FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj|solutionrelative:furiatec_telegrambot\\furiatec_telegrambot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F626B67-F2F1-42FA-B212-F00EF0ABE173}|FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj|c:\\users\\eduar\\onedrive\\documentos\\projetos\\furiatec_telegrambot\\furiatec_telegrambot\\models\\esportsmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F626B67-F2F1-42FA-B212-F00EF0ABE173}|FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj|solutionrelative:furiatec_telegrambot\\models\\esportsmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 371,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,13 +54,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "EsportsModels.cs",
               "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\Documentos\\Projetos\\FuriaTec_TelegramBot\\FuriaTec_TelegramBot\\Models\\EsportsModels.cs",
               "RelativeDocumentMoniker": "FuriaTec_TelegramBot\\Models\\EsportsModels.cs",
               "ToolTip": "C:\\Users\\eduar\\OneDrive\\Documentos\\Projetos\\FuriaTec_TelegramBot\\FuriaTec_TelegramBot\\Models\\EsportsModels.cs",
               "RelativeToolTip": "FuriaTec_TelegramBot\\Models\\EsportsModels.cs",
-              "ViewState": "AgIAAFMBAAAAAAAAAAAIwHgBAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T21:28:29.152Z",
               "EditorCaption": ""
@@ -73,66 +73,63 @@
               "RelativeDocumentMoniker": "FuriaTec_TelegramBot\\Services\\CadastroService.cs",
               "ToolTip": "C:\\Users\\eduar\\OneDrive\\Documentos\\Projetos\\FuriaTec_TelegramBot\\FuriaTec_TelegramBot\\Services\\CadastroService.cs",
               "RelativeToolTip": "FuriaTec_TelegramBot\\Services\\CadastroService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA0AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T17:35:13.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "UsuariosDB.cs",
               "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\Documentos\\Projetos\\FuriaTec_TelegramBot\\FuriaTec_TelegramBot\\Data\\UsuariosDB.cs",
               "RelativeDocumentMoniker": "FuriaTec_TelegramBot\\Data\\UsuariosDB.cs",
               "ToolTip": "C:\\Users\\eduar\\OneDrive\\Documentos\\Projetos\\FuriaTec_TelegramBot\\FuriaTec_TelegramBot\\Data\\UsuariosDB.cs",
               "RelativeToolTip": "FuriaTec_TelegramBot\\Data\\UsuariosDB.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAUwDsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAUwDcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T14:24:17.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T14:24:17.676Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\Documentos\\Projetos\\FuriaTec_TelegramBot\\FuriaTec_TelegramBot\\Program.cs",
               "RelativeDocumentMoniker": "FuriaTec_TelegramBot\\Program.cs",
               "ToolTip": "C:\\Users\\eduar\\OneDrive\\Documentos\\Projetos\\FuriaTec_TelegramBot\\FuriaTec_TelegramBot\\Program.cs",
               "RelativeToolTip": "FuriaTec_TelegramBot\\Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAuwB8AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAI8AAAAAAAAAAADgv64AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T13:27:34.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ChatService.cs",
               "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\Documentos\\Projetos\\FuriaTec_TelegramBot\\FuriaTec_TelegramBot\\Services\\ChatService.cs",
               "RelativeDocumentMoniker": "FuriaTec_TelegramBot\\Services\\ChatService.cs",
               "ToolTip": "C:\\Users\\eduar\\OneDrive\\Documentos\\Projetos\\FuriaTec_TelegramBot\\FuriaTec_TelegramBot\\Services\\ChatService.cs",
               "RelativeToolTip": "FuriaTec_TelegramBot\\Services\\ChatService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwA8AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T12:55:50.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T12:55:50.607Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ImagemService.cs",
               "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\Documentos\\Projetos\\FuriaTec_TelegramBot\\FuriaTec_TelegramBot\\Services\\ImagemService.cs",
               "RelativeDocumentMoniker": "FuriaTec_TelegramBot\\Services\\ImagemService.cs",
               "ToolTip": "C:\\Users\\eduar\\OneDrive\\Documentos\\Projetos\\FuriaTec_TelegramBot\\FuriaTec_TelegramBot\\Services\\ImagemService.cs",
               "RelativeToolTip": "FuriaTec_TelegramBot\\Services\\ImagemService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwB4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwB4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T12:00:24.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T12:00:24.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "FuriaTec_TelegramBot.csproj",
               "DocumentMoniker": "C:\\Users\\eduar\\OneDrive\\Documentos\\Projetos\\FuriaTec_TelegramBot\\FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj",
               "RelativeDocumentMoniker": "FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj",
@@ -140,8 +137,7 @@
               "RelativeToolTip": "FuriaTec_TelegramBot\\FuriaTec_TelegramBot.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-24T13:32:12.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T13:32:12.494Z"
             }
           ]
         }
